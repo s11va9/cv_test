@@ -186,13 +186,20 @@ grid-template-columns: 1fr;
 <h2>Описание задачи</h2>
 <p>В рамках данного тестового задания вам необходимо разработать полный pipeline решения задачи классификации изображений овощей на основе представленного датасета.</p>
 <div class="highlight">
-<p>Фокус компании смещается на собственное производство в сфере агропромышленности. Внутреннему отделу необходима система компьютерного зрения для автоматической идентификации овощей, что позволит оптимизировать процессы учета и повысить эффективность производственных операций.</p>
+<p>Бизнес-кейс: Фокус компании смещается на собственное производство в сфере агропромышленности. Внутреннему отделу необходима система компьютерного зрения для автоматической идентификации овощей, что позволит оптимизировать процессы учета и повысить эффективность производственных операций.</p>
 </div>
 </div>
 <div class="section">
 <h2>Набор данных и формальная постановка задачи</h2>
-<p>Представленный датасет содержит изображения различных овощей. Необходимо провести анализ датасета и обучить модель <strong>мультиклассовой классификации</strong>.</p>
-</div>
+<p>
+Представленный датасет содержит изображения различных овощей. Необходимо провести анализ датасета и обучить модель <strong>мультиклассовой классификации</strong>.
+</p>
+<div class="endpoint">
+Dataset: 
+<a href="https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset" target="_blank">
+Vegetable Image Dataset (Kaggle)
+</a>
+</div></div>
 <div class="section">
 <h2>Задачи</h2>
 <div class="task-list">
@@ -231,7 +238,7 @@ grid-template-columns: 1fr;
 </div>
 </div>
 <div class="section">
-<h2>Дополнительные задачи</h2>
+<h2>Дополнительные задачи (будет плюсом)</h2>
 <div class="task-list">
 <div class="task-card">
 <h3>1. Интерпретация решения модели (Grad-CAM)</h3>
@@ -253,7 +260,7 @@ grid-template-columns: 1fr;
 </div>
 </div>
 <div class="section">
-<h2>Ожидаемые результаты</h2>
+<h2>Тестовое задание будет считаться корректным при наличии:</h2>
 <ul>
 <li>Github репозиторий с решением задачи</li>
 <li>Обученная модель</li>
@@ -261,32 +268,33 @@ grid-template-columns: 1fr;
 <li>Документация по запуску и использованию</li>
 </ul>
 </div>
-  <div class="section">
+<div class="section">
 <h2>Отправка решения</h2>
 
-<p>После выполнения задания отправьте ссылку на ваш GitHub репозиторий.</p>
+<p>После выполнения задания отправьте ссылку на ваш GitHub репозиторий через форму ниже или на почту arzumanyanss@sm-komandor.ru с указанием темы "Тестовое задание CV — ссылка на репозиторий".</p>
 
-<form action="mailto:your_email@example.com" method="post" enctype="text/plain">
+<form 
+action="mailto:arzumanyanss@sm-komandor.ru?subject=Тестовое задание CV — ссылка на репозиторий" 
+method="post" 
+enctype="text/plain" 
+accept-charset="UTF-8">
 
 <label for="name">Ваше имя</label><br>
-<input type="text" id="name" name="Name" required style="width:100%;padding:10px;margin:10px 0;border-radius:6px;border:1px solid #ccc;"><br>
+<input type="text" id="name" name="Имя" required
+style="width:100%;padding:10px;margin:10px 0;border-radius:6px;border:1px solid #ccc;"><br>
 
 <label for="email">Ваш email</label><br>
-<input type="email" id="email" name="Email" required style="width:100%;padding:10px;margin:10px 0;border-radius:6px;border:1px solid #ccc;"><br>
+<input type="email" id="email" name="Email" required
+style="width:100%;padding:10px;margin:10px 0;border-radius:6px;border:1px solid #ccc;"><br>
 
 <label for="repo">Ссылка на GitHub репозиторий</label><br>
-<input type="url" id="repo" name="Repository" placeholder="https://github.com/username/repository" required style="width:100%;padding:10px;margin:10px 0;border-radius:6px;border:1px solid #ccc;"><br>
+<input type="url" id="repo" name="Репозиторий"
+placeholder="https://github.com/username/repository"
+required
+style="width:100%;padding:10px;margin:10px 0;border-radius:6px;border:1px solid #ccc;"><br>
 
-<button type="submit" style="
-background:#20B2AA;
-color:white;
-border:none;
-padding:12px 25px;
-border-radius:8px;
-font-size:16px;
-cursor:pointer;
-margin-top:10px;
-">
+<button type="submit"
+style="background:#20B2AA;color:white;border:none;padding:12px 25px;border-radius:8px;font-size:16px;cursor:pointer;margin-top:10px;">
 Отправить решение
 </button>
 
